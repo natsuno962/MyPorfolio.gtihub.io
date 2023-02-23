@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<div class="container-fluid">
+<html lang="en"><head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Untitled Document</title>
+      <!-- Bootstrap -->
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+      
+  </head>
+<body>
+  
+<div class="container">
+  <img src="images/logo1.png" alt="" width="220" height="27" class="img-fluid"/> 
+	<div class="buttonsGroup">
+		
+      <nav>
+		
+		<ul>
+		  
+			<li>
+			<a class="nav-link" href="#">Home&nbsp;</a> 
+			</li>
+		  <li>
+			<a class="nav-link" href="About.html">About&nbsp;</a> 
+			</li>
+			<li>
+			 <a class="nav-link" href="cont.html">Contact&nbsp;</a>
+			</li>
+			<li>
+			<a class="nav-link" href="strength.html">Strength&nbsp;</a>
+			</li>
+			<li>
+			<a class="nav-link" href="Portfolio.html">Portfolio&nbsp;</a>
+			</li>
+		  </ul>
+		
+	</nav>	 
+    </div>
+</div>
+	<ul class="list-unstyled">
+		<div class="media-body">
+	     <h1>GLENELL</h1>
+
+    <h2 class="text-uppercase">Diel</h2>	
+        </div>
+		
+		
+	  <li class="media"> <div class="team-area"><div class="single-team">
+                             <img src="images/glenell102.png" alt="" width="365" height="200"> 
+			<div class="team-text">
+
+                 <h2>Glenell</h2>
+                  <p>web Dev and Graphics Designer</p>
+                             <p>
+											 
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+			                       <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                       <a href="#"><i class="fa fa-instagram"></i></a>
+          </p>
+       </div>
+      </div> 
+     </div>
+		
+		  <div class="box1"><h3><strong>I am a Web Developer and Graphics designer</strong></h3></div>
+		  
+      </li>
+</ul>
+<!-- body code goes here -->
+<footer class="footer">Copyright © 2023 Portfolio</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-3.4.1.min.js"></script>
+      <div class="cursor"></div>
+	
+	<script type="text/javascript"> const cursor = document.querySelector(".cursor");
+		var timeout;
+	document.addEventListener("mousemove", (e)=>{
+		
+		let x = e.pageX;
+		let y =e.pageY;
+		cursor.style.top = y + "px";
+		cursor.style.left = x + "px";
+		cursor.style.display ="block";
+		
+		function mousestopped(){
+			cursor.style.display ="none";
+		}
+		clearTimeout(timeout);
+		timeout = setTimeout(mousestopped, 1000);
+	});
+		Document.addEventListener("mouseout",() =>{
+			cursor.style.display = "none";
+		})
+	</script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap-4.4.1.js"></script>
+<div class="container-fluid"></div>
+</body>
+</html>
+</div>
